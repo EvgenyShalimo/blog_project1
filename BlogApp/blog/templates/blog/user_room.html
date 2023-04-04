@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'blog/index.html' %}
 
-    <div class="alert alert-warning">
-        <h1>{{article.name}}</h1>
-        <p>{{ article.city }} </p>
-        <p>{{ article.pol }} </p>
+{% block title %}Форма к регистрации на рассылку{% endblock %}
 
-    </div>
-</body>
-</html>
+{% block content %}
+<div class="features">
+    <h1>Пользовательская информация:</h1>
+    <p>Имя: {{ room.name }}</p>
+    <p>Фамилия: {{ room.second_name }}</p>
+    <p>E-mail адрес: {{ room.email }}</p>
+    <p>Город проживания: {{ room.city }}</p>
+    <p>Пол: {{ room.pol }}</p>
+    <p>Дата регистрации: {{ room.date }}</p>
+
+</div>
+{% endblock %}

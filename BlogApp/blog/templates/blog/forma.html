@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-<form method="post">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">send</button>
-</form>
-</body>
-</html>
+{% extends 'blog/index.html' %}
+
+{% block title %}Форма к регистрации на рассылку{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Форма к регистрации на рассылку</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.name }}<br>
+        {{ form.second_name }}<br>
+        {{ form.email }}<br>
+        {{ form.city }}<br>
+        {{ form.pol }}<br>
+        {{ form.date }}<br>
+        <span>{{ error }}</span>
+        <button class="btn btn-success" type="submit">Ввод</button>
+    </form>
+</div>
+{% endblock %}

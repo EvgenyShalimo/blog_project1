@@ -1,15 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
- {% for i in listUser%}
-    <div class="alert alert-warning">
-        <h3><a href="{% url 'user_room' i.id %}"> {{ i.name }}</a></h3>
+{% extends 'blog/index.html' %}
+
+{% block title %}Список подписчиков на рассылку{% endblock %}
+
+{% block content %}
+    <div class="features">
+        <h1>Список подписчиков на рассылку:</h1>
+
+        {% for i in listUser%}
+            <div class="text-muted">
+                <a href="{% url 'user_room' i.id %}"> {{ i.name }}</a>
+            </div>
+        {% endfor %}
     </div>
- {% endfor %}
-    </div>
-</body>
-</html>
+{% endblock %}
+
+
+
+
+
+
+
+
