@@ -87,3 +87,40 @@ form {
 .px-3 a {
     text-decoration: none
 }
+
+.reg {
+    color: #fff;
+    padding-left:400px
+}
+
+.reg h1 {
+    text-align: center;
+}
+
+.reg form {
+    text-align: left;
+}
+
+.reg button {
+    text-align: center;
+}
+
+.log {
+    color: #fff;
+    text-align: center;
+}
+
+.log form {
+    text-align: left;
+    padding-left:450px
+}
+
+.main {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.main a {
+    text-decoration: none;
+}
