@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect
 from .forms import UsersForm
 from .models import Users
 from django.views.generic import DetailView
+from BlogApp.celery import app as celery_app
+from BlogApp.tasks import add_numbers
+from django.http import HttpResponse
+from celery.result import AsyncResult
 
 def index (request):
     return render(request,'blog/home.html')
@@ -42,6 +46,8 @@ def list_user(request):
     listUser = Users.objects.all()
     return render(request,'blog/user_list.html', {'listUser': listUser} )
 
-
+def test_celery(request):
+    result = add_numbers.delay(2, 3)
+    return HttpResponse(f'Result: {result.id}')
 
 

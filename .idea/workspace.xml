@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11573d7a-83ee-4623-8150-30faaaded01f" name="Changes" comment="requirements">
-      <change beforePath="$PROJECT_DIR$/BlogApp/blog/static/blog/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/static/blog/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/blog/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/templates/blog/index.html" afterDir="false" />
+    <list default="true" id="11573d7a-83ee-4623-8150-30faaaded01f" name="Changes" comment="Авторизация и регистрация пользователей">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/BlogApp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/BlogApp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/BlogApp/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/BlogApp/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/BlogApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/BlogApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/BlogApp/signals.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlogApp/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/news/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/news/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/news/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/news/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -100,13 +101,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680630813982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Авторизация и регистрация пользователей">
+      <created>1680870169779</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680870169779</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Домашка по Джанго часть 2" />
     <MESSAGE value="requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="requirements" />
+    <MESSAGE value="Авторизация и регистрация пользователей" />
+    <option name="LAST_COMMIT_MESSAGE" value="Авторизация и регистрация пользователей" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

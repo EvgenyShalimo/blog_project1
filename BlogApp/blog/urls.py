@@ -6,4 +6,5 @@ urlpatterns = [
     path('contakts/', views.contakts, name='contacts'),
     path('registration/', views.contact, name='registration'),
     path('<int:pk>', views.NewsDetailView.as_view(), name='user_room'),
+    path('test_selery', views.test_celery,name='test_seleri')
 ]
